@@ -41,7 +41,7 @@
                             this.init();
                         }
                         return initDeferred.promise.then(function () {
-                            $window.addthisevent.refresh();
+                            return $window.addthisevent.refresh();
                         });
                     }
                 }
